@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+<form action="https://lm.ciclo.iesnervion.es/encuesta.php" method="post">
+   <fieldset>
+       <legend>Datos Académicos</legend>
+       <label for="nombre">Nombre y apellidos: </label>
+       <input type="text" name="nombre" id="nombre" required>
+       <label for="ciclo">Ciclo Formativo: </label>
+       <select name="ciclo" id="ciclo">
+           <option value="DAM" SELECTED>DAM</option>
+           <option value="DAW">DAW</option>
+           <option value="ASIR">ASIR</option>
+       </select>
+   </fieldset>
+    <fieldset>
+        <legend>Preferencias Técnicas</legend>
+        <label for=>Lenguaje Principal: </label>
+        <label for="opcion1">Java </label>
+        <input type="radio" name="opcion1" id="opcion1">
+        <label for="opcion2">Python </label>
+        <input type="radio" name="lenguaje" id="opcion2" value="Python">
+        <label for="opcion3">C# </label>
+        <input type="radio" name="lenguaje" id="opcion3" value="Ruby">
+        <label for="opcion4">JavaScript </label>
+        <input type="radio" name="lenguaje" id="opcion4" value="Ruby">
+    </fieldset>
+</form>
+</body>
+</html>
