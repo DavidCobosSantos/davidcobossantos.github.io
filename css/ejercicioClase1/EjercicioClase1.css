@@ -1,0 +1,33 @@
+.fondo-azul{
+    background-color: blue;
+}
+.fondo-rojo{
+    background-color: red;
+}
+.texto-blanco{
+    color: white;
+}
+.tamaño140{
+    font-size: 1.4em;
+}
+.tipo-letra{
+    font-family: cursive;
+}
+.negrita{
+    font-weight: bold;
+}
+.centrar-texto{
+    text-align: center;
+}
+.transparente{
+    color: rgba(0,0,0,0.2);
+}
+.cursiva{
+    font-style: italic;
+}
+.sombra-roja{
+    text-shadow: 2px 2px 2px red;
+}
+.sombra-azul{
+    text-shadow: 2px 2px 5px blue;
+}
